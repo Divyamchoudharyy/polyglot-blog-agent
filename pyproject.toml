@@ -1,0 +1,25 @@
+[project]
+name = "blogagentic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Divyam Choudhary", email = "divyamchoudhary15@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.161.1",
+    "langchain>=1.4.7",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.7.0",
+    "langchain-groq>=1.1.3",
+    "langgraph>=1.2.16",
+    "langgraph-cli[inmem]>=0.4.38",
+    "pydantic>=2.14.1",
+    "python-dotenv>=1.0.0",
+    "uvicorn>=0.54.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
